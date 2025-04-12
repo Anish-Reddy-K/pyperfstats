@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyperfstats"
+version = "0.1.0"
+description = "A lightweight Python performance profiler"
+readme = "README.md"
+authors = [
+    {name = "Anish Reddy", email = "anishreddy3456@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "psutil>=5.8.0",
+    "matplotlib>=3.3.0",
+    "pandas>=1.2.0",
+    "click>=7.0",
+]
+
+[project.scripts]
+pyperfstats = "pyperfstats.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/Anish-Reddy-K/pyperfstats"
+"Bug Tracker" = "https://github.com/Anish-Reddy-K/pyperfstats/issues"
