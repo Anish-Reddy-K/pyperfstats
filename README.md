@@ -126,7 +126,3 @@ print(f"Report generated at: {report_path}")
 # This will open an interactive terminal UI
 monitor_process(pid=1234)
 ```
-
-## License
-
-MIT
