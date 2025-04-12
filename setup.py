@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="pyperfstats",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Anish Reddy",
+    author_email="anishreddy3456@gmail.comm",
     description="A lightweight Python performance profiler",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pyperfstats",
+    url="https://github.com/Anish-Reddy-K/pyperfstats",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

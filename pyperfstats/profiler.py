@@ -137,7 +137,6 @@ class PerfProfiler:
         
         finally:
             self.monitoring = False
-            print(f"Performance data saved to {self.output_file}")
     
     def profile_script(self, script_path, script_args=None, interval=1.0):
         """
