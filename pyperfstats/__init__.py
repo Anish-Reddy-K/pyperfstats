@@ -11,4 +11,4 @@ from .visualize import (
 )
 from .live_monitor import monitor_process, monitor_script, LiveMonitor
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'

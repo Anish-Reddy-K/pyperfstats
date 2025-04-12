@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pyperfstats",
-    version="0.1.0",
+    version="0.1.1",
     author="Anish Reddy",
     author_email="anishreddy3456@gmail.comm",
     description="A lightweight Python performance profiler",
