@@ -1,5 +1,7 @@
 # PyPerfStats
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyperfstats?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyperfstats)
+
 **Lightweight Python Performance Profiler**  
 📊 Real-time metrics · 💻 Interactive terminal UI · 📈 Visual reports · 🧠 Built-in analysis
 
